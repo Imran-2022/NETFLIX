@@ -28,13 +28,13 @@
 .home{
     width: 100%;
     width: 100%;
-    min-height: 92vh;
+    min-height: 93vh;
     position: relative;
     background:radial-gradient(rgba(0,0,0,2),rgba(0,0,0,0.4)),url(../Images_Src/bg.jpg) no-repeat center center/cover;
     color: #fff;
 }
 .home-center{
-    min-height: 90vh;
+    min-height: 91vh;
     display: flex;
     justify-content:center;
     /* align-content:center; */
