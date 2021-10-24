@@ -28,8 +28,8 @@ const SignIn = () => {
                 </div>
 
                 <button type="submit" className="btn btn-primary btn-block">Sign-In</button>
-                <p className="forgot-password text-right ">
-                    Forgot <a href="#">password?</a>
+                <p  className="forgot-password text-right ">
+                    Forgot <a href="#!" onClick={()=>alert("forget password not working for now.try later. ")}>password?</a>
                 </p>
                 <p>New there ? sign up first  <Link to="/sign-up">Sign Up</Link> </p>
             </form>
