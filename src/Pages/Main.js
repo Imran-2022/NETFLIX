@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Components/Footer/Footer';
 import Header from '../Components/Header';
 import TabComponents from '../Components/TabComponents';
 
@@ -7,6 +8,7 @@ const Main = () => {
         <div>
             <Header/>
             <TabComponents/>
+            <Footer/>
         </div>
     );
 };
