@@ -5,6 +5,7 @@ import Main from "./Pages/Main";
 import SignIn from "./Components/SignInform/SignIn";
 import SignUp from "./Components/SignInform/SignUp";
 import NotFound from "./Components/NotFound/NotFound";
+import Choseplan from "./Components/ChosePlan/Choseplan";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
         <Route path="/home" component={Main}/>
         <Route path="/sign-in" component={SignIn}/>
         <Route path="/sign-up" component={SignUp}/>
+        <Route path="/chose-plan" component={Choseplan}/>
         <Route path="*" component={NotFound}/>
       </Switch>
     </>

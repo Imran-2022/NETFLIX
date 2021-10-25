@@ -9,7 +9,7 @@ const Home = () => {
                 <h1 className="display-1">See what's next</h1>
                 <h2 className="display-3">watch anywhere , cancel anytime</h2>
                 <div>
-                <Link className="btn btn-primary  p-2 m-3" to="/">Try it now <MdFlightTakeoff/></Link>
+                <Link onClick={()=>setTimeout(window.scrollTo(0, 0), 0)}  className="btn btn-primary  p-2 m-3" to="/chose-plan">Try it now <MdFlightTakeoff/></Link>
                 </div>
             </div>
         </div>

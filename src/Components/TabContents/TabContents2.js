@@ -8,7 +8,7 @@ const TabContents2 = () => {
            
             <div className="contents-in">
                 <p>Watch Tv shows and movies anytime, anywhere .- personalized for you. </p>
-                <Link className="btn btn-primary  p-2 m-3" to="/">Try it now <MdFlightTakeoff/></Link>
+                <Link onClick={()=>setTimeout(window.scrollTo(0, 0), 0)}  className="btn btn-primary  p-2 m-3" to="/chose-plan">Try it now <MdFlightTakeoff/></Link>
             </div>
             <div className="img3">
                 <img width="100%" src="Images_public/tab-tv.png" alt="" />

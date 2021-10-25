@@ -9,7 +9,7 @@ const TabContents1 = () => {
            
             <div>
                 <p>If you decide Netflix isn't for you !- no problem,No commitment , cancel Online anytime . </p>
-                <Link className="btn btn-primary  p-2 m-3" to="/">Try it now <MdFlightTakeoff/></Link>
+                <Link onClick={()=>setTimeout(window.scrollTo(0, 0), 0)}  className="btn btn-primary  p-2 m-3" to="/chose-plan">Try it now <MdFlightTakeoff/></Link>
                 
             </div>
             <img width="100%" src="Images_public/tab-1-pic.png" alt="" />

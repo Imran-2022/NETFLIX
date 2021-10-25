@@ -4,11 +4,15 @@ import { MdFlightTakeoff } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import {FaTimes,FaCheck} from "react-icons/fa";
 const TabContents3 = () => {
+    const scrl=() => {
+        window.scrollTo(0, 0);
+    }
+      // setTimeout(function() { window.scrollTo(500, 0); }, 0);
     return (
         <div className="contentss">
             <div className="contents-in">
                 <p>Watch Tv shows and movies anytime, anywhere .- personalized for you. </p>
-                <Link className="btn btn-primary  p-2 m-3" to="/">Try it now <MdFlightTakeoff /></Link>
+                <Link onClick={()=>setTimeout(window.scrollTo(0, 0), 0)} className="btn btn-primary  p-2 m-3" to="/chose-plan">Try it now <MdFlightTakeoff /></Link>
             </div>
             <div>
                 <Table striped bordered hover>
